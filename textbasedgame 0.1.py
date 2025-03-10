@@ -208,8 +208,8 @@ def combatinit():
         enemyhp = 5
         enemyattack = 3
     elif opponent == "grue":
-        enemyattack = 7
-        enemyhp = 10
+        enemyattack = 5
+        enemyhp = 7
     elif opponent == "hollowed":
         enemyattack = 5
         enemyhp = 20
