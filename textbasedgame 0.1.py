@@ -238,7 +238,7 @@ def combat():
 
     combat_action = input("i want to fight/use/run     ")
 
-    if combat_action == "fight":
+    if combat_action == "fight" or "1":
         enemyhp = enemyhp - weaponstats[0] * weaponstats[1] + (playerstats[0] * playerstats[1])
         if enemyhp <= 0:
             print("the enemy died")
@@ -258,7 +258,7 @@ def combat():
         combat()
     
     
-    elif combat_action == "use":
+    elif combat_action == "use" or "2":
         hp -= enemyattack
         if hp <= 0:
             print("you died!! x_x")
@@ -275,7 +275,7 @@ def combat():
             combat()
     
     
-    elif combat_action == "run":
+    elif combat_action == "run" or "3":
         if hp <= 0:
             print("you died!! x_x")
             exit()
