@@ -303,6 +303,7 @@ def combat():
     elif combat_action == "run" or combat_action == "r":
         if runs > 0:
             print("you ran, coward.")
+            runs -= 1
             textgame()
         else:
             print("youre tired from running, you must fight")
@@ -456,10 +457,11 @@ def textgame():
                     textgame()
                 elif foundloot == "banditmap":
                     onetimestats["banditmap"] = True
+                    print("banditoutpost location unlocked")
                 else:
                     inventory.append(foundloot)
                     enemycorpse = False
-                    print("banditoutpost location unlocked")
+                    
                     textgame()
                 enemycorpse = False
 
