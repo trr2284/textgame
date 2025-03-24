@@ -5,6 +5,4 @@ Contact azin_hikari on discord if you find a bug in the game, or want to pitch i
 Hover over the text "bugfix" or "content" to see what changed in that patch
 
 
-
-
-im still working on the game btw.
+game has been discontinued
